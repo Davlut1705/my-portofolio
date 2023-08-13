@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tasks</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body class="body">
+    <header>
+        <div class = "topContainer">
+            <h1 class="upperH1">Tasks Management </h1>
+            <button id = "openBtn" class="button">Click Me!</button>
+
+        </div>
+    </header>
+
+
+    
+    <div class = "taskContiner">
+        <div class = "incompletedTasksContiner">
+            <p>My Tasks</p>
+            <ol id = "uncompletedTasksList">
+            </ol>
+        </div>
+       
+        <p>🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩</p>
+
+        <div class = "completedTasksContiner">
+            <p>Completed Tasks</p>
+            <ol id = "completedTasksList">
+
+            </ol>
+
+        </div>
+
+    </div>
+
+
+    <div id = "dialogContainer">
+        <dialog  id ="addTaskDialog" class = "dialog" >
+        
+        <form id="taskForm" class="form">
+
+            <p>Complete this form!</p>
+
+            <label for="name" class="name">Title:</label><br>
+            <input
+            type="text"
+            id="name"
+            name="name"
+            maxlength="50"
+            required
+            pattern="[A-Za-z0-9]+"
+            ><br>
+            
+            <label for="description" class="description">Description:</label><br>
+            <textarea
+            id="description"
+            name="description"
+            maxlength="250"
+            required
+            ></textarea><br>
+
+            <label for="email" class="email">Email:</label><br>
+            <input
+            type="email" 
+            id="email"
+            name="email"
+            required
+            ><br>
+
+            <button id="cancelBtn" form method="dialog" class="button">Cancel</button>
+            <button type="submit" class="button">Confirm</button>
+
+          </form>
+    </dialog>
+    </div>
+    
+    <script src="index.js"></script>
+
+    <footer class="footer">
+        <p>Made by Cosman Constantin-Vladut</p>
+    </footer>
+</body>
+</html>

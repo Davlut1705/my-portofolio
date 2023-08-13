@@ -1,0 +1,97 @@
+.upperH1{
+    color: white;
+    
+  }
+
+  p{
+    color: white;
+  }
+
+.button{
+    border: #FE7BE5;
+    color: white;
+    background-color: #FE7BE5;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .completeBtn{
+    border: #FE7BE5;
+    color: white;
+    background-color: #FE7BE5;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .deleteBtn{
+    border: #FE7BE5;
+    color: white;
+    background-color: #FE7BE5;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+
+.body {
+    display: grid;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #313866;
+}
+  
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #FE7BE5;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height:5vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+
+
+
+.topContainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #313866;
+    width: 100%;
+    height: 20vh;
+}
+
+.taskContiner{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #504099;
+    width: 100%;
+    height: 75vh;
+    overflow: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+
+}
+
+.taskContiner::-webkit-scrollbar {
+    width: 0;
+}
+
+ol {
+    list-style-type: decimal; 
+    padding-left: 20px; 
+}
+
+li {
+    color: white; 
+}
+
+.dialog{
+    background-color: #974EC3;
+}
